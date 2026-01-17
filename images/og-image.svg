@@ -1,0 +1,45 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background gradient -->
+    <defs>
+        <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#6B4423"/>
+            <stop offset="50%" stop-color="#8B5A2B"/>
+            <stop offset="100%" stop-color="#A67C52"/>
+        </linearGradient>
+        <pattern id="wood-pattern" width="80" height="80" patternUnits="userSpaceOnUse">
+            <path d="M0 40 Q20 35 40 40 T80 40" stroke="#4A2F18" stroke-width="1" fill="none" opacity="0.2"/>
+            <path d="M0 60 Q20 55 40 60 T80 60" stroke="#4A2F18" stroke-width="1" fill="none" opacity="0.15"/>
+        </pattern>
+    </defs>
+    <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+    <rect width="1200" height="630" fill="url(#wood-pattern)"/>
+
+    <!-- Logo icon -->
+    <rect x="80" y="180" width="140" height="140" rx="24" fill="#FFFFFF" fill-opacity="0.15"/>
+    <rect x="82" y="182" width="136" height="136" rx="22" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="4"/>
+
+    <!-- House shape in logo -->
+    <path d="M150 210L100 250V310H125V275H175V310H200V250L150 210Z" fill="#FFFFFF"/>
+
+    <!-- Hammer -->
+    <rect x="140" y="230" width="12" height="40" rx="3" fill="#D97706"/>
+    <rect x="125" y="222" width="42" height="14" rx="3" fill="#FFFFFF" fill-opacity="0.8"/>
+
+    <!-- Company name -->
+    <text x="260" y="240" font-family="Plus Jakarta Sans, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF">Håndverker</text>
+    <text x="260" y="310" font-family="Plus Jakarta Sans, sans-serif" font-size="64" font-weight="800" fill="#FDF8F3" fill-opacity="0.9">Holmen AS</text>
+
+    <!-- Tagline -->
+    <text x="260" y="360" font-family="Inter, sans-serif" font-size="28" font-weight="500" fill="#D97706">Din lokale snekker i Indre Østfold</text>
+
+    <!-- Services line -->
+    <text x="80" y="460" font-family="Inter, sans-serif" font-size="24" fill="#FFFFFF" fill-opacity="0.9">Tilbygg | Garasjer | Terrasser | Rehabilitering | Vinduer og dører</text>
+
+    <!-- Bottom bar -->
+    <rect x="0" y="530" width="1200" height="100" fill="#4A2F18"/>
+    <text x="80" y="590" font-family="Inter, sans-serif" font-size="26" font-weight="600" fill="#FDF8F3">Hærland, Indre Østfold | Personlig service | Gratis befaring</text>
+
+    <!-- Location icon -->
+    <circle cx="1080" y="580" r="30" fill="#D97706"/>
+    <path d="M1080 560 L1080 600 M1060 580 L1100 580" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

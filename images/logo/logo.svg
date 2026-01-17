@@ -1,0 +1,21 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Icon - House with hammer -->
+    <rect width="48" height="48" rx="10" fill="#8B5A2B"/>
+
+    <!-- House shape -->
+    <path d="M24 10L10 22V38H18V28H30V38H38V22L24 10Z" fill="#FDF8F3" fill-opacity="0.9"/>
+
+    <!-- Hammer handle -->
+    <rect x="20" y="18" width="4" height="14" rx="1" fill="#D97706"/>
+
+    <!-- Hammer head -->
+    <rect x="16" y="16" width="12" height="5" rx="1" fill="#4A5568"/>
+
+    <!-- Wood grain accent -->
+    <path d="M12 32H16" stroke="#A67C52" stroke-width="1" stroke-linecap="round"/>
+    <path d="M32 32H36" stroke="#A67C52" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Text: Håndverker Holmen -->
+    <text x="56" y="24" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="#2C2C2C">Håndverker</text>
+    <text x="56" y="42" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="700" fill="#8B5A2B">Holmen</text>
+</svg>
