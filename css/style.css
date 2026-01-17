@@ -541,7 +541,7 @@ button {
     display: flex;
     align-items: center;
     padding-top: var(--header-height);
-    background: linear-gradient(135deg, var(--holmen-wood-dark) 0%, var(--holmen-wood) 50%, var(--holmen-wood-light) 100%);
+    background: url('../images/hero/hero-bg.jpg') center center / cover no-repeat;
     overflow: hidden;
 }
 
@@ -552,8 +552,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    opacity: 0.3;
+    background: linear-gradient(135deg, rgba(93, 64, 55, 0.85) 0%, rgba(121, 85, 72, 0.8) 50%, rgba(161, 136, 127, 0.75) 100%);
 }
 
 .hero-content {
@@ -1246,7 +1245,7 @@ button {
 .page-hero {
     padding-top: calc(var(--header-height) + var(--spacing-3xl));
     padding-bottom: var(--spacing-3xl);
-    background: linear-gradient(135deg, var(--holmen-wood-dark) 0%, var(--holmen-wood) 100%);
+    background: url('../images/hero/hero-bg.jpg') center center / cover no-repeat;
     color: var(--white);
     text-align: center;
     position: relative;
@@ -1260,8 +1259,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    opacity: 0.3;
+    background: linear-gradient(135deg, rgba(93, 64, 55, 0.9) 0%, rgba(121, 85, 72, 0.85) 100%);
 }
 
 .page-hero-content {
